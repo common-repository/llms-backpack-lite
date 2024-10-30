@@ -1,0 +1,21 @@
+.all-notes-conainter{max-height:300px;overflow-y:scroll;}
+.all-notes-conainter #accordion-Historical{margin-top:20px;}
+.all-notes-conainter .single-note{border-bottom:0.5px solid black}
+.all-notes-conainter .content{background-color:lightgray;}
+.all-notes-conainter .admin_response{background-color:lightblue;}
+.all-notes-conainter .year{padding-top:20px;}
+.all-notes-conainter .alert-danger, .del-note {color:red}
+.alert-success{color:green}
+.student-notes-layer{ width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 99999;
+    background: lightgrey;
+    opacity: 0.8;
+    height: 100%;
+	display:none;
+}
+.student-notes-layer img{ margin-top: 30%; }
+.del-note {color:red}
+a.del-note {color:red}
+.note-lesson-link {color:green !important;}
